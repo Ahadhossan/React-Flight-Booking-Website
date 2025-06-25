@@ -3,7 +3,7 @@ import mask from "../../assets/images/mask.png";
 
 const About = () => {
 	return (
-		<div className="w-full md:px-[60px] px-8 flex md:flex-row flex-col items-center justify-between py-10 md:gap-0 gap-16">
+		<div className="w-full md:px-[60px] px-8 flex md:flex-row flex-col items-center justify-between py-10 md:gap-0 gap-16" id="about">
 			<div
 				className="md:w-[700px] md:h-[700px] w-[350px] h-[350px] bg-no-repeat bg-cover relative plane-mask"
 				style={{ backgroundImage: `url(${mask})` }}
